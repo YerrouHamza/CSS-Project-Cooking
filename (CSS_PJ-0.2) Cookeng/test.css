@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* this method 2 */
+html {
+    font-size: 62.5%;
+}
+
+nav h1 {
+    float: left;
+    margin-right: 2px;
+}
+
+nav ul {
+    float: right;
+}
+nav li {
+    float: left;
+    margin: 0rem 3.8rem;
+}
+.clear {
+    clear: both;
+}
+nav {
+    background: rgb(80, 143, 111);
+    padding: 0.7rem ; 
+}
+#logo {
+    color: rgb(255, 255, 255) ;
+    font-size: 2.8rem;
+}
+a {
+    color: rgb(255, 255, 255) ;
+    text-decoration: none;
+    font-size: 2.1rem ;
+}
+.nav-links {
+    list-style: none;
+}
+
+
+
+.main-section  h2 {
+    font-size: 5rem;
+    padding: 3rem 0rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+.button {
+    text-align: center;
+    width: 8rem;
+    height: 3rem;
+    margin: 2.7rem 48%;
+    border: none;
+    background: rgb(93, 179, 136);
+    border-radius: 10rem;
+    cursor: pointer;
+    color: white;
+}
+button:hover {
+    border: none;
+    padding: 0.3rem;
+    background: rgba(84, 202, 143, 0.829);
+}
+button:focus {
+    border: none;
+    padding: 0.4rem;
+    background: rgb(79, 190, 135);
+}
+.main-section {
+    background-image: url(/cooken.jpg);
+    height: 50rem;
+    background-size: cover;
+    background-position: top;
+    padding-top: 8rem;
+    color:  rgb(23, 27, 25);
+    text-shadow: 3px 3px 7px rgb(82, 94, 94);
+}
+
+
+.form-section h2 {
+    font-size: 3.1rem;
+    padding: 5rem 0rem;
+    text-align: center;
+}
+
+form label, form input, form textarea, form button {
+    margin: auto;
+    display: block;
+}
+label {
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 1.6rem;
+    font-style: initial;
+}
+input {
+    border-radius: 1rem;
+    padding: 0.2rem 2rem;
+    margin: 0rem 200rem;
+}
+textarea {
+    border-radius: 1rem;
+}
+.submit {
+    margin-top: 2rem;
+    text-align: center;
+    width: 23rem;
+    height: 3rem;
+    border: none;
+    background: rgb(93, 179, 136);
+    border-radius: 10rem;
+    cursor: pointer;
+    color: white;
+}
+form {
+    margin-bottom: 5rem;
+}
